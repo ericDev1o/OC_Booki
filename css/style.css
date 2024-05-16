@@ -107,7 +107,7 @@ a {
 
 .menu-item {
     padding-top: 16px;
-    font-family: "Raleway", "Arial";
+    font-family: "Raleway";
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -140,7 +140,7 @@ a {
   }
 
   .search-content {
-    background: #ffffff;
+    background: white;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -187,6 +187,18 @@ a {
     }
 
 /****** filtres ******/
+.filters > h4 {
+    font-size: 18px;
+}
+
+.button-filter {
+    border-radius: 25px;
+    border: 2px solid var(--dark-bg-color);
+}
+
+.button-filter:hover {
+    background-color: var(--filter-bg-color);
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
