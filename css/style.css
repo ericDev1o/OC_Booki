@@ -7,10 +7,34 @@
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
+
+    --text-color: black;
 }
 
 .fa-solid {
     color: var(--main-color);
+}
+
+h2,
+h3 {
+  font-family: "Raleway", "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  margin: 0 0 8px 0;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+h4,
+h5 {
+  font-family: "Raleway", "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0 0 20px 0;
 }
 
 body {
@@ -86,19 +110,14 @@ a {
     width: 344px;
     height: 35px;
     padding: 0px 50px 0px 50px;
-    /*margin: 68px;*/
 }
 
 .menu-item {
     padding-top: 16px;
     font-family: "Raleway", "Arial";
-    /*font-style: normal;
-    font-weight: 400;*/
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    color: #000000;
-    /*text-decoration: none;*/
 }
 
 .menu > a:last-child {
@@ -110,6 +129,73 @@ a {
     border-top: 2px solid var(--main-color);
     color: var(--main-color);
 }
+
+/****** Main ******/
+/****** recherche et filtres ******/
+.recherche-and-filtres {
+
+}
+/****** titre ******/
+
+/****** recherche ******/
+.search > form {
+    height: 49px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .search-content {
+    background: #ffffff;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-content span {
+    height: 49px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 15px 0px 0px 15px;
+  }
+  
+  .search-content input[type="text"] {
+    border: 1px solid #f2f2f2;
+    height: 49px;
+    padding: 0 0 0 17px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .button-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 16px;
+    /*gap: 10px;*/
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #0065fc;
+    border-radius: 0px 15px 15px 0px;
+    background-color: var(--main-color);
+    }
+
+/****** filtres ******/
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -179,6 +265,14 @@ a {
 
 }
 
+/****** titre ******/
+
+/****** cadre et cartes ******/
+/****** cadre ******/
+
+/****** cartes ******/
+
+/****** Footer ******/
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
