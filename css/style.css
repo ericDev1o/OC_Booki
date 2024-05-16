@@ -7,8 +7,7 @@
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
-
-    --text-color: black;
+    --dark-bg-color: #D9D9D9;
 }
 
 .fa-solid {
@@ -17,11 +16,8 @@
 
 h2,
 h3 {
-  font-family: "Raleway", "Arial";
-  font-style: normal;
   font-weight: 700;
-  font-size: 22px;
-  line-height: 26px;
+  line-height: 25.83px;
   margin: 0 0 8px 0;
   letter-spacing: 0em;
   text-align: left;
@@ -29,11 +25,8 @@ h3 {
 
 h4,
 h5 {
-  font-family: "Raleway", "Arial";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 18.78px;
   margin: 0 0 20px 0;
 }
 
@@ -160,8 +153,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f2f2f2;
-    border: 1px solid #f2f2f2;
+    background: var(--main-bg-color);
+    border: 1px solid var(--main-bg-color);
     border-radius: 15px 0px 0px 15px;
   }
   
@@ -169,7 +162,6 @@ a {
     border: 1px solid #f2f2f2;
     height: 49px;
     padding: 0 0 0 17px;
-    font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
@@ -183,14 +175,13 @@ a {
     align-items: center;
     padding: 15px 16px;
     /*gap: 10px;*/
-    font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: center;
     color: #ffffff;
-    border: 1px solid #0065fc;
+    border: 1px solid var(--main-color);
     border-radius: 0px 15px 15px 0px;
     background-color: var(--main-color);
     }
