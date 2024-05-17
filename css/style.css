@@ -136,6 +136,10 @@ a {
 /****** titre ******/
 
 /****** recherche ******/
+.search-and-filters > h5 {
+    font-weight: 400;
+}
+
 .search > form {
     height: 49px;
     display: flex;
@@ -332,7 +336,6 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    /*padding: 0px 30px 0px 30px;*/
 }
 
 .activites-cards .card {
@@ -359,6 +362,26 @@ a {
 }
 
 /****** Footer ******/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main-bg-color);
+    padding: 20px 0px 0px 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer > h4 {
+    font-size: 18px;
+    line-height: 21.13px;
+}
+
+.footer > h5 {
+    font-weight: 400;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
