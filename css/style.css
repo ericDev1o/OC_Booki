@@ -30,6 +30,11 @@ h5 {
   margin: 0 0 20px 0;
 }
 
+p {
+    font-size: 14px;
+    line-height: 16.44px
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -77,14 +82,14 @@ a {
 
 /****** Header ******/
 .header-top {
-    background-color: red;
+    /*background-color: red;*/
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 
 .logo-hug {
-    background-color: green;
+    /*background-color: green;*/
     width: 161.09px;
     height: 79px;
     padding: 30px 50px 30px 50px;
@@ -97,7 +102,7 @@ a {
 }
 
 .menu-hug {
-    background-color: orange;
+    /*background-color: orange;*/
     display: flex;
     justify-content: space-around;
     width: 344px;
@@ -187,13 +192,20 @@ a {
     }
 
 /****** filtres ******/
+.filters {
+    display: flex;
+}
+
 .filters > h4 {
     font-size: 18px;
 }
 
 .button-filter {
+    height: 50px;
     border-radius: 25px;
     border: 2px solid var(--dark-bg-color);
+    padding: 4px 19px 4px 19px;
+    margin: 15px;
 }
 
 .button-filter:hover {
@@ -218,6 +230,54 @@ a {
     width: 65%;
 }
 
+.hebergements-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hebergements-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hebergements-cards .card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    height: 196px;
+    width: 230px;
+}
+
+.hebergements-cards img {
+    height: 50%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.hebergements-cards .card-content {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.hebergements-cards .card-title {
+    margin: 10px 0px 4px 0px;
+}
+
+.hebergements-cards .card-subtitle {
+
+}
+
+.hebergements-cards .card-rating {
+    margin-bottom: 5px;
+}
+
+.hebergements > h4 {
+    font-size: 18px;
+    margin: 30px 30px 30px 30px;
+}
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -237,8 +297,7 @@ a {
 .populaires-cards img {
     width: 33%;
     height: 136px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 20px 0px 0px 20px;
 }
 
 .populaires-cards .card-content {
@@ -267,13 +326,6 @@ a {
 .activites {
 
 }
-
-/****** titre ******/
-
-/****** cadre et cartes ******/
-/****** cadre ******/
-
-/****** cartes ******/
 
 /****** Footer ******/
 
