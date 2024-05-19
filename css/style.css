@@ -129,13 +129,6 @@ a {
 }
 
 /****** Main ******/
-/****** recherche et filtres ******/
-.recherche-and-filtres {
-
-}
-/****** titre ******/
-
-/****** recherche ******/
 .search-and-filters > h5 {
     font-weight: 400;
 }
@@ -209,6 +202,7 @@ a {
     border: 2px solid var(--dark-bg-color);
     padding: 4px 19px 4px 19px;
     margin: 15px;
+    background-color: white;
 }
 
 .button-filter:hover {
@@ -219,6 +213,7 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin: 20px 0px 20px 0px;
 }
 
 .hebergements-and-populaires section {
@@ -324,6 +319,7 @@ a {
 /****** Activités ******/
 .activites {
     width: 100%;
+    margin: 20px 0px 20px 0px;
 }
 
 .activites-title {
