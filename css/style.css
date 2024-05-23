@@ -376,8 +376,8 @@ a {
     line-height: 21.13px;
 }
 
-.footer > h5 {
-    font-weight: 400;
+.footer > p {
+    font-size: 16px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
