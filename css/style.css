@@ -228,7 +228,7 @@ a {
 
 .filters > h4 {
     font-size: 18px;
-    padding: 30px 30px 30px 0;
+    padding: 30px 10px 30px 0;
 }
 
 .button-filter {
@@ -236,12 +236,11 @@ a {
     border-radius: 25px;
     border: 2px solid var(--dark-bg-color);
     padding: 4px 19px 4px 19px;
-    margin: 15px;
+    margin: 15px 15px 0 0;
     background-color: white;
 }
 
 .button-filter > span {
-    margin-left: 15px;
     font-size: 17px;
     font-weight: 700;
     margin-left: 10px;
@@ -431,8 +430,6 @@ a {
     font-size: 16px;
     line-height: 0.7px;
 }
-
-
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
