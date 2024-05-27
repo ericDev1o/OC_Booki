@@ -177,7 +177,11 @@ a {
     text-align: left;
   }
 
-  input {
+  .search-content input::placeholder {
+    color: black;
+  }
+
+  .search-content i {
     color: black;
   }
 
