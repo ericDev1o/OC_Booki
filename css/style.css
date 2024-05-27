@@ -394,7 +394,7 @@ a {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 20px 19px 20px 19px;
+    padding: 5px 0 0 19px
 }
 
 .activites-cards .card-title {
