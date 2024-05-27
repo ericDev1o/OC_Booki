@@ -407,7 +407,6 @@ a {
     display: flex;
     background-color: var(--main-bg-color);
     align-items: flex-start;
-    line-height: 1px;
 }
 
 .footer-section {
@@ -415,17 +414,21 @@ a {
     flex-direction: column;
     font-size: 16px;
     font-weight: 400;
-    padding: 20px 0 20px 20px;
+    padding: 35px 0 0 20px;
     width: 33%;
 }
 
-.footer > h4 {
+.footer-section > h4 {
     font-size: 18px;
+    line-height: 1px;
 }
 
-.footer > p {
+.footer-section > a > p {
     font-size: 16px;
+    line-height: 0.7px;
 }
+
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
