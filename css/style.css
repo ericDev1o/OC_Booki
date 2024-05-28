@@ -89,12 +89,13 @@ a {
 }
 
 .logo-hug {
-    /*background-color: green;*/
+    background-color: green;
     width: 161.09px;
     height: 79px;
 }
 
 .logo {
+    background-color: magenta;
     padding-top: 30px;
     width: 61.09px;
     height: 19px;
@@ -110,6 +111,7 @@ a {
 }
 
 .menu-item {
+    /*background-color: aqua;*/
     padding-top: 16px;
     font-family: "Raleway";
     font-size: 16px;
@@ -510,6 +512,23 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .logo-hug {
+        width: 100%;
+        align-content: center;
+    }
+    .logo {
+        padding-top: 0;
+        display: block;
+        margin: auto;
+    }
+    .menu-item {
+        padding-bottom: 25px;
+        padding-top: 0;
+    }
+    .menu-item:hover {
+        border-bottom: 2px solid var(--main-color);
+        border-top: 0;
     }
     .search > form {
         width: 100%;
