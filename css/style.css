@@ -89,13 +89,13 @@ a {
 }
 
 .logo-hug {
-    background-color: green;
+    /*background-color: green;*/
     width: 161.09px;
     height: 79px;
 }
 
 .logo {
-    background-color: magenta;
+    /*background-color: magenta;*/
     padding-top: 30px;
     width: 61.09px;
     height: 19px;
@@ -131,6 +131,7 @@ a {
 
 /****** Main ******/
 .search {
+    background-color: aqua;
     margin-top: 15px;
 }
 
@@ -140,6 +141,7 @@ a {
 }
 
 .search > form {
+    background-color: orange;
     height: 49px;
     width: 377px;
     display: flex;
@@ -149,6 +151,7 @@ a {
   }
 
   .search-content {
+    background-color: magenta;
     background: white;
     display: flex;
     flex-flow: row nowrap;
@@ -157,6 +160,7 @@ a {
   }
   
   .search-content span {
+    background-color: gold;
     height: 49px;
     width: 50px;
     display: flex;
@@ -188,6 +192,7 @@ a {
   }
 
   .button-search {
+    background-color: green;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -202,7 +207,6 @@ a {
     border-radius: 0 15px 15px 0;
     background-color: var(--main-color);
     }
-
 
 /****** infobar ******/
 /***** circle the information icon ******/
@@ -530,8 +534,19 @@ a {
         border-bottom: 2px solid var(--main-color);
         border-top: 0;
     }
-    .search > form {
+    /* stretch width 100%*/
+    .search-content {
         width: 100%;
+    }
+    .button-search {
+        border-radius: 15px 15px 15px 15px;
+    }
+    .button-search .search-txt {
+        display: none;
+    }
+    .button-search i {
+        color: white;
+        padding-left: 15px;
     }
     .filters {
         flex-direction: column;
@@ -540,8 +555,7 @@ a {
         display: flex;
         flex-wrap: wrap;
     }
-    /*search width 100%, 
-    filters buttons 2 par 2,
+    /*filters buttons 2 par 2,
     populaires width 100%*/
     .populaires {
         width: 100%;
