@@ -102,16 +102,16 @@ a {
 }
 
 .menu-hug {
-    /*background-color: orange;*/
+    background-color: orange;
     display: flex;
     justify-content: space-around;
     width: 344px;
     height: 35px;
-    padding: 0 50px 0 50px;
+    padding: 0 0 0 50px;
 }
 
 .menu-item {
-    /*background-color: aqua;*/
+    background-color: aqua;
     padding-top: 16px;
     font-family: "Raleway";
     font-size: 16px;
@@ -134,6 +134,7 @@ a {
 .search {
     background-color: aqua;
     margin-top: 15px;
+    width: 95%;
 }
 
 .search-and-filters > h5 {
@@ -144,11 +145,10 @@ a {
 .search > form {
     background-color: orange;
     height: 49px;
-    width: 377px;
+    width: 100%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: left;
-    align-items: center;
   }
 
   .search-content {
@@ -172,20 +172,20 @@ a {
     border-radius: 15px 0 0 15px;
   }
   
-  .search-content input[type="text"] {
+  .search-content input[type="search"] {
     border: 1px solid #f2f2f2;
     height: 49px;
-    width: 169px;
+    width: 100%;
     padding: 0 0 0 17px;
+  }
+
+  .search-content input::placeholder {
+    color: black;
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
-  }
-
-  .search-content input::placeholder {
-    color: black;
   }
 
   .search-content i {
@@ -249,6 +249,8 @@ a {
     padding: 4px 19px 4px 19px;
     margin: 15px 15px 0 0;
     background-color: white;
+    display: flex;
+    align-items: center;
 }
 
 .button-filter > span {
@@ -265,7 +267,7 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
-    margin: 40px 0 20px 0;
+    margin: 40px 50px 20px 0;
 }
 
 .hebergements-and-populaires section {
@@ -292,12 +294,16 @@ a {
     justify-content: space-around;
 }
 
+.hebergements-cards > a {
+    width: 28%;
+}
+
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
     margin-top: 33px;
     height: 196px;
-    width: 230px;
+    width: 100%;
 }
 
 .hebergements-cards img {
@@ -390,25 +396,26 @@ a {
 
 .activites-cards {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     justify-content: space-between;
+    margin-right: 50px;
 }
 
 .activites-cards .card {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-    width: 310px;
+    width: 22%;
     height: 440px;
 }
 
 .activites-cards img {
-    height: 90%;
+    height: 80%;
     border-radius: 20px 20px 0 0;
 }
 
 .activites-cards .card-content {
-    height: 10%;
+    height: 20%;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -425,6 +432,7 @@ a {
     display: flex;
     background-color: var(--main-bg-color);
     align-items: flex-start;
+    margin-right: 50px;
 }
 
 .footer-section {
@@ -487,7 +495,7 @@ a {
     }
 
     .populaires-cards a {
-        width: 30%;
+        width: 32%;
     }
 
     .populaires-cards .card-title {
@@ -509,7 +517,7 @@ a {
     }
 
     .activites-cards .card{
-        width: 180px;
+        width: 22%;
         height: 250px;
     }
 
@@ -530,8 +538,22 @@ a {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+	    body{
+        margin: 0;
+    }
+    main{
+        margin: 20px;
+    }
+
+    .main-container {
+        background-color: red;
+        width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+    }			  
     /****** Header ******/
     .header-top {
+		background-color: gray;		   
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -548,7 +570,16 @@ a {
         margin: auto;
     }
 
+	.menu-hug {
+        background-color: orange;
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        height: 35px;
+        padding: 0 50px 0 50px;
+    }				   
     .menu-item {
+		background-color: green;			
         padding-bottom: 25px;
         padding-top: 0;
     }
@@ -559,8 +590,8 @@ a {
     }
 
     /****** Search ******/
-    .search-and-filters {
-        width: 767.98px;
+	.search-content{
+        width: 100%;
     }
 
     .button-search {
@@ -577,13 +608,20 @@ a {
     }
 
     /****** Filtres ******/
+	.filters {
+        display: flex;
+        flex-direction: column;
+        background-color:antiquewhite ;
+    }			
     .filters .filter-buttons{
+		background-color: aqua;
+        justify-content: center;
         display: flex;
         flex-flow: row wrap;
     }
 
     .button-filter {
-        width: 50%;
+        width: 46%;
     }
 
     /****** Populaires ***********/
