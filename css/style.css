@@ -480,10 +480,6 @@ a {
         margin-top: 50px;
     }
 
-    .populaires-mobile {
-        display: none;
-    }
-
     .populaires-cards {
         display: flex;
         flex-direction: row;
