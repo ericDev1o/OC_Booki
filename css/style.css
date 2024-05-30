@@ -594,6 +594,11 @@ a {
    .populaires {
     display: none;
     }
+
+    .populaires-mobile {
+        display: block;
+    }
+
     .populaires-cards {
         display: flex;
         flex-direction: column;
