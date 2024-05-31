@@ -102,7 +102,7 @@ a {
 }
 
 .menu-hug {
-    background-color: orange;
+    /*background-color: orange;*/
     display: flex;
     justify-content: space-around;
     width: 344px;
@@ -111,7 +111,7 @@ a {
 }
 
 .menu-item {
-    background-color: aqua;
+    /*background-color: aqua;*/
     padding-top: 16px;
     font-family: "Raleway";
     font-size: 16px;
@@ -132,7 +132,7 @@ a {
 /****** Main ******/
 /****** Search ******/
 .search {
-    background-color: aqua;
+    /*background-color: aqua;*/
     margin-top: 15px;
     width: 95%;
 }
@@ -143,7 +143,7 @@ a {
 }
 
 .search > form {
-    background-color: orange;
+    /*background-color: orange;*/
     height: 49px;
     width: 100%;
     display: flex;
@@ -152,7 +152,7 @@ a {
   }
 
   .search-content {
-    background-color: magenta;
+    /*background-color: magenta;*/
     background: white;
     display: flex;
     flex-flow: row nowrap;
@@ -161,7 +161,7 @@ a {
   }
   
   .search-content span {
-    background-color: gold;
+    /*background-color: gold;*/
     height: 49px;
     width: 50px;
     display: flex;
@@ -186,6 +186,7 @@ a {
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
+    /*padding: 0 10px 0 10px;*/
   }
 
   .search-content i {
@@ -193,7 +194,7 @@ a {
   }
 
   .button-search {
-    background-color: green;
+    /*background-color: green;*/
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -396,7 +397,6 @@ a {
 
 .activites-cards {
     display: flex;
-    /*flex-wrap: wrap;*/
     justify-content: space-between;
     margin-right: 50px;
 }
@@ -410,12 +410,12 @@ a {
 }
 
 .activites-cards img {
-    height: 80%;
+    height: 90%;
     border-radius: 20px 20px 0 0;
 }
 
 .activites-cards .card-content {
-    height: 20%;
+    height: 10%;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
