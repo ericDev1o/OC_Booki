@@ -536,6 +536,17 @@ a {
 }
 
 /* Small devices (phones, less than 768px) */
+/*
+To do:
+1) stretch to the left the search button
+2) center the content to the right
+    a) header
+    b) search filter
+    c) populaires
+    d) hebergements
+    e) activites
+    f) footer
+*/
 @media (max-width: 767.98px) {
 	    body{
         margin: 0;
@@ -596,6 +607,8 @@ a {
 
 	.search-content{
         width: 100%;
+        display: flex;
+        justify-content: stretch;
     }
 
     .button-search {
