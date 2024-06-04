@@ -82,27 +82,23 @@ a {
 
 /****** Header ******/
 .header-top {
-    /*background-color: red;*/
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 
 .logo-hug {
-    /*background-color: green;*/
     width: 161.09px;
     height: 79px;
 }
 
 .logo {
-    /*background-color: magenta;*/
     padding-top: 30px;
     width: 61.09px;
     height: 19px;
 }
 
 .menu-hug {
-    /*background-color: orange;*/
     display: flex;
     justify-content: space-around;
     width: 344px;
@@ -111,7 +107,6 @@ a {
 }
 
 .menu-item {
-    /*background-color: aqua;*/
     padding-top: 16px;
     font-family: "Raleway";
     font-size: 16px;
@@ -132,7 +127,6 @@ a {
 /****** Main ******/
 /****** Search ******/
 .search {
-    /*background-color: aqua;*/
     margin-top: 35px;
     width: 95%;
 }
@@ -143,7 +137,6 @@ a {
 }
 
 .search > form {
-    /*background-color: orange;*/
     height: 49px;
     width: 100%;
     display: flex;
@@ -152,7 +145,6 @@ a {
   }
 
   .search-content {
-    /*background-color: magenta;*/
     background: white;
     display: flex;
     flex-flow: row nowrap;
@@ -161,7 +153,6 @@ a {
   }
   
   .search-content span {
-    /*background-color: gold;*/
     height: 49px;
     width: 50px;
     display: flex;
@@ -193,10 +184,8 @@ a {
   }
 
   .button-search {
-    /*background-color: green;*/
     display: flex;
     flex-direction: row;
-    align-items: center;
     padding: 14px 18px 14px 0;
     font-size: 18px;
     font-weight: 700;
@@ -215,6 +204,7 @@ a {
     display: flex;
     align-items: center;
 }
+
 .info-bar > span:first-child {
     display: flex;
     justify-content: center;
@@ -523,6 +513,7 @@ a {
     .activites-cards img {
         height: 70%;
     }
+
     .activites-cards .card-content {
         height: 30%;
         padding: 0 0 0 15px;
@@ -536,40 +527,29 @@ a {
 }
 
 /* Small devices (phones, less than 768px) */
-/*
-To do:
-center the content to the right
-a) header
-b) search filter
-c) populaires
-d) hebergements
-e) activites
-f) footer
-*/
 @media (max-width: 767.98px) {
     body{
         margin: 0;
     }
+
     main{
         margin: 20px;
     }
 
     .main-container {
-        /*background-color: red;*/
         width: 100%;
         padding: 0;
         box-sizing: border-box;
-    }			  
+    }
+
     /****** Header ******/
-    .header-top {
-		/*background-color: gray;*/	   
+    .header-top {  
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .logo-hug {
-        /*background-color: aqua;*/
         width: 100%;
         align-content: center;
     }
@@ -581,7 +561,6 @@ f) footer
     }
 
 	.menu-hug {
-        /*background-color: orange;*/
         width: 100%;
         display: flex;
         justify-content: space-around;
@@ -589,7 +568,6 @@ f) footer
         padding: 0 50px 0 50px;
     }				   
     .menu-item {
-		/*background-color: green;*/
         width: 50%;	
         padding-bottom: 25px;
         padding-top: 0;
@@ -602,7 +580,7 @@ f) footer
 
     /****** Search ******/
     .search {
-        width: 93%;
+        width: 100%;
         margin-right: 20px;
     }
 
@@ -627,14 +605,13 @@ f) footer
 
     /****** Filtres ******/
 	.filters {
-        /*background-color:antiquewhite;*/
         display: flex;
         flex-direction: column;
-        width: 93%;
+        width: 100%;
         margin-right: 35px;
-    }			
+    }
+
     .filters .filter-buttons{
-		/*background-color: aqua;*/
         justify-content: center;
         display: flex;
         flex-flow: row wrap;
