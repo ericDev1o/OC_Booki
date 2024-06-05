@@ -199,20 +199,22 @@ a {
     }
 
 /****** infobar ******/
-/***** circle the information icon ******/
+/****** circle the information icon ******/
+/****** Sid Ali Mohammedi ******/
 .info-bar {
     display: flex;
     align-items: center;
 }
 
-.info-bar > span:first-child {
+.info-bar > span > i {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 100%;
     width: 24px;
     height: 24px;
     box-sizing: border-box;
-    border-radius: 100%;
+    
     border: 1px solid #d9d9d9;
     margin-right: 10px;
 }
@@ -527,7 +529,7 @@ a {
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
     body{
         margin: 0;
     }
@@ -622,13 +624,15 @@ a {
         width: 43%;
     }
 
-    /****** Populaires ***********/
-   .populaires {
-        display: none;
+    .info-bar {
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 
-    .populaires-mobile {
-        display: block;
+    /****** Populaires ******/
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+        margin-top: 0;
     }
 
     .populaires-cards {
@@ -640,7 +644,7 @@ a {
         width: 100%;
     }
 
-    /****** Hebergements ***********/
+    /****** Hebergements ******/
     .hebergements {
         margin-top: 30px;;
     }

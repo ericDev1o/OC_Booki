@@ -9,18 +9,18 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
             integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
+            crossorigin="anonymous" referrerpolicy="no-referrer">
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         <div class="main-container">
-            <header class="header-top">
+            <header class="header-top" aria-hidden="true">
                 <div class="logo-hug">
                     <img class="logo" src="images/logo/Booki.png" alt="logo">
                 </div>
                 <nav class="menu-hug">
-                    <a class="menu-item" href="#">Hébergements</a>
-                    <a class="menu-item" href="#">Activités</a>
+                    <a class="menu-item" href="#hebergements">Hébergements</a>
+                    <a class="menu-item" href="#activites">Activités</a>
                 </nav>
             </header>
             <main>
@@ -30,7 +30,7 @@
                     <div class="search">
                         <form>
                             <div class="search-content">
-                                <span>
+                                <span aria-hidden="true">
                                     <i class="fa-solid fa-location-dot fa-lg"></i>
                                 </span>
                                 <input
@@ -39,7 +39,7 @@
                                     name="txtSearch"
                                     required
                                     aria-label="Rechercher un logement dans une ville"
-                                />
+                                >
                             </div>
                             <button class="button-search" type="submit">
                                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -51,26 +51,26 @@
                         <h4>Filtres</h4>
                         <div class="filter-buttons">
                             <button class="button-filter" type="submit">
-                                <i class="fa-solid fa-money-bill-wave fa-lg"></i>
+                                <i class="fa-solid fa-money-bill-wave fa-lg" aria-hidden="true"></i>
                                 <span>Économique</span>
                             </button>
                             <button class="button-filter" type="submit">
-                                <i class="fa-solid fa-person fa-lg"></i>
+                                <i class="fa-solid fa-person fa-lg" aria-hidden="true"></i>
                                 <span>Familial</span>
                             </button>
                             <button class="button-filter" type="submit">
-                                <i class="fa-solid fa-heart fa-lg"></i>
+                                <i class="fa-solid fa-heart fa-lg" aria-hidden="true"></i>
                                 <span>Romantique</span>
                             </button>
                             <button class="button-filter" type="submit">
-                                <i class="fa-solid fa-fire fa-lg"></i>
+                                <i class="fa-solid fa-fire fa-lg" aria-hidden="true"></i>
                                 <span>Nos pépites</span>
                             </button>
                         </div>
                     </div>
                     <h5 class="info-bar">
-                        <span>
-                            <i class="color-1 fa-solid fa-info fa-xs" aria-hidden="true"></i>
+                        <span aria-hidden="true">
+                            <i class="color-1 fa-solid fa-info fa-xs"></i>
                         </span>
                         <span class="info-span-txt">
                             Plus de 500 logements sont disponibles dans cette ville
@@ -78,72 +78,7 @@
                     </h5>
                 </div>
                 <div class="hebergements-and-populaires">
-                    <section class="populaires-mobile">
-                        <div class="populaires-title">
-                            <h2 class="section-title">Les plus populaires</h2>
-                            <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
-                        </div>
-                        <div class="populaires-cards">
-                            <a href="#">
-                                <article class="card">
-                                    <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                                    <div class="card-content">
-                                        <div class="card-txt">
-                                            <h3 class="card-title">Hôtel Le soleil du matin</h3>
-                                            <p class="card-subtitle">Nuit à partir de 128<span class="euro">€</span></p>
-                                        </div>
-                                        <div class="card-rating">
-                                            <i class="fa-xs fa-solid fa-star fa-sm" aria-hidden="true"></i>
-                                            <i class="fa-xs fa-solid fa-star fa-sm" aria-hidden="true"></i>
-                                            <i class="fa-xs fa-solid fa-star fa-sm" aria-hidden="true"></i>
-                                            <i class="fa-xs fa-solid fa-star fa-sm" aria-hidden="true"></i>
-                                            <i class="fa-xs fa-solid fa-star neutral-star fa-sm" aria-hidden="true"></i>
-                                            <span class="sr-only">Note de 4 sur 5</span>
-                                        </div>
-                                    </div>
-                                </article>
-                            </a>
-                            <a href="#">
-                                <article class="card">
-                                    <img src="./images/hebergements/aw-creative.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                                    <div class="card-content">
-                                        <div class="card-txt">
-                                            <h3 class="card-title">Chambres d’hôtes Au cœur de l’eau</h3>
-                                            <p class="card-subtitle">Nuit à partir de 71<span class="euro">€</span></p>
-                                        </div>
-                                        <div class="card-rating">
-                                            <i class="fa-xs fa-solid fa-star fa-sm" aria-hidden="true"></i>
-                                            <i class="fa-xs fa-solid fa-star fa-sm" aria-hidden="true"></i>
-                                            <i class="fa-xs fa-solid fa-star fa-sm" aria-hidden="true"></i>
-                                            <i class="fa-xs fa-solid fa-star fa-sm" aria-hidden="true"></i>
-                                            <i class="fa-xs fa-solid fa-star neutral-star fa-sm" aria-hidden="true"></i>
-                                            <span class="sr-only">Note de 4 sur 5</span>
-                                        </div>
-                                    </div>
-                                </article>
-                            </a>
-                            <a href="#">
-                                <article class="card">
-                                    <img src="./images/hebergements/febrian-zakaria2.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                                    <div class="card-content">
-                                        <div class="card-txt">
-                                            <h3 class="card-title">Hôtel Bleu et Blanc</h3>
-                                            <p class="card-subtitle">Nuit à partir de 68<span class="euro">€</span></p>
-                                        </div>
-                                        <div class="card-rating">
-                                            <i class="fa-xs fa-solid fa-star fa-sm" aria-hidden="true"></i>
-                                            <i class="fa-xs fa-solid fa-star fa-sm" aria-hidden="true"></i>
-                                            <i class="fa-xs fa-solid fa-star fa-sm" aria-hidden="true"></i>
-                                            <i class="fa-xs fa-solid fa-star fa-sm" aria-hidden="true"></i>
-                                            <i class="fa-xs fa-solid fa-star neutral-star fa-sm" aria-hidden="true"></i>
-                                            <span class="sr-only">Note de 4 sur 5</span>
-                                        </div>
-                                    </div>
-                                </article>
-                            </a>
-                        </div>
-                    </section>
-                    <section class="hebergements">
+                    <section class="hebergements" id="hebergements">
                         <div class="hebergements-title">
                             <h2 class="section-title">Hébergements à Marseille</h2>
                         </div>
@@ -331,7 +266,7 @@
                         </div>
                     </section>
                 </div>
-                <section class="activites">
+                <section class="activites" id="activites">
                     <div class="activites-title">
                         <h2 class="section-title">Activités à Marseille</h2>
                     </div>
@@ -340,7 +275,7 @@
                             <img src="./images/activites/reno-laithienne.jpg" alt="Vieux-Port">
                             <div class="card-content">
                                 <div class="card-txt">
-                                    <h4 class="card-title">Vieux-Port</h3>
+                                    <h4 class="card-title">Vieux-Port</h4>
                                 </div>
                             </div>
                         </article>
@@ -348,7 +283,7 @@
                             <img src="./images/activites/paul-hermann.jpg" alt="Fort de Pomègues">
                             <div class="card-content">
                                 <div class="card-txt">
-                                    <h4 class="card-title">Fort de Pomègues</h3>
+                                    <h4 class="card-title">Fort de Pomègues</h4>
                                 </div>
                             </div>
                         </article>
@@ -356,7 +291,7 @@
                             <img src="./images/activites/kilyan-sockalingum.jpg" alt="Parc national des Calanques">
                             <div class="card-content">
                                 <div class="card-txt">
-                                    <h4 class="card-title">Parc national des Calanques</h3>
+                                    <h4 class="card-title">Parc national des Calanques</h4>
                                 </div>
                             </div>
                         </article>
@@ -364,7 +299,7 @@
                             <img src="./images/activites/florian-wehde.jpg" alt="Notre-Dame-de-la-Garde">
                             <div class="card-content">
                                 <div class="card-txt">
-                                    <h4 class="card-title">Notre-Dame-de-la-Garde</h3>
+                                    <h4 class="card-title">Notre-Dame-de-la-Garde</h4>
                                 </div>
                             </div>
                         </article>
