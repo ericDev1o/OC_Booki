@@ -8,3 +8,4 @@
 ### aside populaires au contenu indépendant, aside visuellement oui, le contenu est lié
 ### Flexbox: moins de modifications responsive à priori
 ### balises sémantiques
+### utilisation de pixels pour les widths visuellement OK dans le header
