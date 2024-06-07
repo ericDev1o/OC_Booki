@@ -633,17 +633,24 @@ a {
         margin-bottom: 0;
         padding-bottom: 0;
     }
-    /****** Populaires ******/
+    /****** Hebergements, Populaires ******/
     .hebergements-and-populaires {
         width: 100%;
         flex-direction: column-reverse;
         margin: 0;
-        padding: 10%;
     }
 
-    .populaires-cards {
+    .populaires-cards, .hebergements-cards {
         flex-direction: column;
+        /*margin-left: 5%;
+        margin-right: 5%;*/
+        /*padding: 10%;*/
     }
+   /****** Populaires ******/
+.populaires-cards {
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
     .populaires-cards a {
         width: 100%;
@@ -654,10 +661,10 @@ a {
         padding: 10%;
         margin-top: 10%;
     }
-    
+
     .hebergements-cards {
-        display: flex;
-        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .hebergements-cards>a {
@@ -674,8 +681,9 @@ a {
         padding: 10%;
     }
     .activites-cards {
-        display: flex;
         flex-direction: column;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
     }
 
     .activites-cards .card {
