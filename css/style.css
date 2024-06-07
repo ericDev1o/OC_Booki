@@ -512,7 +512,7 @@ a {
         flex-direction: row;
     }
 
-    .activites-cards .card{
+    .activites-cards .card {
         width: 22%;
         height: 250px;
     }
@@ -546,7 +546,7 @@ a {
     }
 
     /****** Header ******/
-    .header-top {  
+    .header-top {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -569,7 +569,8 @@ a {
         justify-content: space-around;
         height: 35px;
         padding: 0 50px 0 50px;
-    }				   
+    }
+
     .menu-item {
         width: 50%;	
         padding-bottom: 25px;
@@ -580,7 +581,6 @@ a {
         border-bottom: 2px solid var(--main-color);
         border-top: 0;
     }
-
     /****** Search ******/
     .search-and-filters {
         margin: 20px;
@@ -591,7 +591,7 @@ a {
         margin-right: 20px;
     }
 
-	.search-content{
+	.search-content {
         width: 100%;
         display: flex;
         justify-content: stretch;
@@ -618,7 +618,7 @@ a {
         margin-right: 35px;
     }
 
-    .filters .filter-buttons{
+    .filters .filter-buttons {
         justify-content: center;
         display: flex;
         flex-flow: row wrap;
@@ -633,16 +633,15 @@ a {
         margin-bottom: 0;
         padding-bottom: 0;
     }
-
     /****** Populaires ******/
     .hebergements-and-populaires {
-        flex-direction: column-reverse;
-        margin-top: 0;
         width: 100%;
+        flex-direction: column-reverse;
+        margin: 0;
+        padding: 10%;
     }
 
     .populaires-cards {
-        display: flex;
         flex-direction: column;
     }
 
@@ -652,7 +651,8 @@ a {
 
     /****** Hebergements ******/
     .hebergements {
-        margin-top: 30px;;
+        padding: 10%;
+        margin-top: 10%;
     }
     
     .hebergements-cards {
@@ -669,6 +669,10 @@ a {
     }
 
     /****** Activités ******/
+    .activites {
+        margin-top: 18%;
+        padding: 10%;
+    }
     .activites-cards {
         display: flex;
         flex-direction: column;
@@ -680,9 +684,17 @@ a {
 
     /****** Footer ******/
     .footer {
-        height: 433px;
-        display: flex;
+        height: 120%;
         flex-direction: column;
         width: 100%;
+    }
+
+    .footer-section {
+        width: 100%;
+    }
+
+    .footer-section>p {
+        font-size: 1rem;
+
     }
 }
