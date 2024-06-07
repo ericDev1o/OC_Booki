@@ -274,8 +274,8 @@ a {
 
 /****** Hebergements ***********/
 .hebergements {
-    background-color: white;
     width: 65%;
+    background-color: var(--main-bg-color);
 }
 
 .hebergements-title {
@@ -333,6 +333,7 @@ a {
 /****** Populaires ***********/
 .populaires {
     width: 32%;
+    background-color: var(--main-bg-color);
 }
 
 .populaires-mobile {
@@ -414,7 +415,7 @@ a {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 5px 0 0 19px
+    padding: 5px 0 0 19px;
 }
 
 .activites-cards .card-title {
