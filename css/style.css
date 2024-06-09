@@ -1,7 +1,5 @@
 /* To do
-less display: flex;
 Companion -0.02px media queries offset
-all
 align hebergements title with card border
 mobile
 populaires title padding
@@ -440,12 +438,12 @@ a {
 }
 
 .footer-section {
+    width: 100%;
     display: flex;
     flex-direction: column;
     font-size: 1rem;
     font-weight: 400;
     padding: 35px 0 0 20px;
-    width: 33%;
 }
 
 .footer-section>h4 {
@@ -713,12 +711,11 @@ a {
     .footer {
         height: 120%;
         flex-direction: column;
-        width: 100%;
     }
 
-    .footer-section {
+    /*.footer-section {
         width: 100%;
-    }
+    }*/
 
     .footer-section>p {
         font-size: 1rem;
