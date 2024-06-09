@@ -1,7 +1,8 @@
 /* To do
 less display: flex;
 Companion -0.02px media queries offset
-
+all
+align hebergements title with card border
 mobile
 populaires title padding
 hebergements backgrd color to white
@@ -163,7 +164,7 @@ a {
     justify-content: center;
     align-items: center;
 }
-  
+
 .search-content span {
     height: 49px;
     width: 50px;
@@ -290,11 +291,11 @@ a {
     background-color: var(--main-bg-color);
 }
 
-.hebergements-title {
+/*.hebergements-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+}*/
 
 .hebergements-cards {
     display: flex;
@@ -321,7 +322,7 @@ a {
 
 .hebergements-cards .card-content {
     height: 45%;
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     box-sizing: border-box;
     line-height: 0.0625rem;
@@ -465,7 +466,7 @@ a {
     }
     /****** Filtres ******/
     .filters {
-        display: flex;
+        /*display: flex;*/
         flex-direction: column;
     }
 
@@ -494,7 +495,7 @@ a {
     }
 
     .populaires-cards {
-        display: flex;
+        /*display: flex;*/
         flex-direction: row;
         justify-content: space-between;
     }
@@ -556,7 +557,7 @@ a {
 
     /****** Header ******/
     .header-top {
-        display: flex;
+        /*display: flex;*/
         flex-direction: column;
         align-items: center;
     }
@@ -574,7 +575,7 @@ a {
 
     .menu-hug {
         width: 100%;
-        display: flex;
+        /*display: flex;*/
         justify-content: space-around;
         height: 35px;
         padding: 0 50px 0 50px;
@@ -602,7 +603,7 @@ a {
 
     .search-content {
         width: 100%;
-        display: flex;
+        /*display: flex;*/
         justify-content: stretch;
     }
 
@@ -621,20 +622,20 @@ a {
 
     /****** Filtres ******/
     .filters {
-        display: flex;
+        /*display: flex;*/
         flex-direction: column;
         width: 100%;
         margin-right: 35px;
     }
 
     .filters .filter-buttons {
+        /*display: flex;*/
         justify-content: center;
-        display: flex;
         flex-flow: row wrap;
     }
 
     .button-filter {
-        display: flex;
+        /*display: flex;*/
         width: 43%;
     }
 
