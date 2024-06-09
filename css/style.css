@@ -1,6 +1,12 @@
 /* To do
 less display: flex;
 Companion -0.02px media queries offset
+
+mobile
+populaires title padding
+hebergements backgrd color to white
+cards spacing left
+hebergements - activités spacing
 */
 /****** General ***********/
 * {
@@ -655,7 +661,7 @@ a {
     }
     /****** Populaires ******/
     .populaires {
-        margin-top: 0;
+        /*margin-top: 0;*/
     }
 
     .populaires-cards {
@@ -670,7 +676,6 @@ a {
     /****** Hebergements ******/
     .hebergements {
         padding: 10%;
-        margin-top: 10%;
     }
 
     .hebergements-cards {
@@ -688,7 +693,7 @@ a {
 
     /****** Activités ******/
     .activites {
-        margin-top: 18%;
+        /*margin-top: 18%;*/
         padding: 10%;
     }
     .activites-cards {
