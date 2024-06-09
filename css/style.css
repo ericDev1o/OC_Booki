@@ -3,7 +3,6 @@ Companion -0.02px media queries offset
 align hebergements title with card border
 mobile
 populaires title padding
-hebergements backgrd color to white
 cards spacing left
 hebergements - activités spacing
 */
@@ -676,6 +675,7 @@ a {
 
     /****** Hebergements ******/
     .hebergements {
+        background-color: white;
         /*padding: 10%;*/
     }
 
