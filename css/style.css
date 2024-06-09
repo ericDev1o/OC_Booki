@@ -1,8 +1,6 @@
 /* To do
 less display: flex;
-indent
-
-% units
+Companion -0.02px media queries offset
 */
 /****** General ***********/
 * {
@@ -133,7 +131,7 @@ a {
 /****** Search ******/
 .search {
     margin-top: 35px;
-    width: 35%;
+    width: 50%;
 }
 
 .search-and-filters>h5 {
@@ -455,6 +453,10 @@ a {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1023.98px) {
+    /****** Search ******/
+    .search {
+        width: 60%;
+    }
     /****** Filtres ******/
     .filters {
         display: flex;
