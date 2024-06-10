@@ -1,19 +1,15 @@
-/* @ericdev1o
-To do
+/* To do
+CSS
+mobile
+populaires title padding
+cards spacing left
+hebergements - activités spacing
+
 Companion 
 -0.02px media queries offset
 when is it better to use grid versus flex?
 How to use the OC portfolio tool?
 How to deploy a website?
-
-README.md
-
-CSS
-align hebergements title with card border
-mobile
-populaires title padding
-cards spacing left
-hebergements - activités spacing
 */
 /****** General ***********/
 * {
@@ -279,7 +275,7 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
-    margin: 40px 50px 20px 0;
+    margin: 40px 50px 50px 0;
     gap: 40px;
 }
 
@@ -443,7 +439,7 @@ a {
     display: flex;
     background-color: var(--main-bg-color);
     align-items: flex-start;
-    margin-right: 50px;
+    margin: 50px 50px 0 0;
 }
 
 .footer-section {
