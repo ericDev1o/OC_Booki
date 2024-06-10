@@ -288,7 +288,7 @@ a {
 }
 
 .hebergements, .populaires {
-        border-radius: 10px;;
+        border-radius: 10px;
     }
 
 /****** Hebergements ***********/
@@ -306,11 +306,12 @@ a {
 .hebergements-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-right: 10px;
 }
 
 .hebergements-cards>a {
-    width: 28%;
+    width: 30%;
 }
 
 .hebergements-cards .card {
@@ -347,7 +348,7 @@ a {
 
 .hebergements>h4 {
     font-size: 1.125rem;
-    margin: 35px 30px 0 30px;
+    margin: 35px 30px 0 0;
 }
 /****** Populaires ***********/
 .populaires {
