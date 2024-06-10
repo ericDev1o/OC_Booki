@@ -284,8 +284,8 @@ a {
 }
 
 .hebergements, .populaires {
-        border-radius: 10px;
-    }
+    border-radius: 10px;
+}
 
 /****** Hebergements ***********/
 .hebergements {
@@ -700,6 +700,7 @@ a {
 
     /****** Activités ******/
     .activites {
+        margin-top: 0;
         /*margin-top: 18%;
         padding: 10%;*/
     }
