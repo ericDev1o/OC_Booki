@@ -1,10 +1,11 @@
 /* To do
 CSS
 desktop, tablet, mobile
-margin-right is larger than margin-left
+spacing-right is larger than spacing-left
 mobile
 populaires, hebergements padding right
-activites padding left bottom
+activites padding left
+footer width short on the right vs. above sections
 
 Companion 
 -0.02px media queries offset
@@ -562,9 +563,12 @@ a {
     }
 
     .main-container {
+        background-color: cadetblue;
         width: 100%;
         padding: 0;
-        box-sizing: border-box;
+        /*box-sizing: border-box;*/
+        /*margin: 0;
+        gap: 0;*/
     }
 
     /****** Header ******/
@@ -720,8 +724,7 @@ a {
     .activites {
         background-color: blue;
         margin-top: 0;
-        /*margin-top: 18%;*/
-        padding: 41px 0 0 10px;
+        padding: 41px 0 65px 10px;
     }
     .activites-cards {
         flex-direction: column;
