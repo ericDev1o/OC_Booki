@@ -723,11 +723,15 @@ a {
         margin-top: 20px;
     }
 
+    .hebergements>h4 {
+        /*padding-left: 20px;*/
+    }
+
     /****** Activités ******/
     .activites {
         background-color: blue;
         margin-top: 0;
-        padding: 41px 0 65px 10px;
+        padding: 41px 0 65px 30px;
     }
     .activites-cards {
         flex-direction: column;
