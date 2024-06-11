@@ -1,9 +1,9 @@
 /* To do
 CSS
 mobile
-populaires title padding
-cards spacing left
-hebergements - activités spacing
+populaires-hebergements spacing / 2
+populaires, hebergements padding right
+activites padding left
 
 Companion 
 -0.02px media queries offset
@@ -497,6 +497,10 @@ a {
         margin-top: 10px;
     }
 
+    /*.populaires>h2 {
+        margin: 0;
+    }*/
+
     .populaires-cards {
         /*display: flex;*/
         flex-direction: row;
@@ -505,6 +509,10 @@ a {
 
     .populaires-cards a {
         width: 32%;
+    }
+
+    .populaires-cards .card {
+        margin-top: 20px;
     }
 
     .populaires-cards .card-title {
@@ -701,8 +709,8 @@ a {
     /****** Activités ******/
     .activites {
         margin-top: 0;
-        /*margin-top: 18%;
-        padding: 10%;*/
+        /*margin-top: 18%;*/
+        padding: 10px 0 0 10px;
     }
     .activites-cards {
         flex-direction: column;
