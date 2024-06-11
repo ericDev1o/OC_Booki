@@ -1,9 +1,10 @@
 /* To do
 CSS
+desktop, tablet, mobile
+margin-right is larger than margin-left
 mobile
-populaires-hebergements spacing / 2
 populaires, hebergements padding right
-activites padding left
+activites padding left bottom
 
 Companion 
 -0.02px media queries offset
@@ -656,9 +657,11 @@ a {
     }
     /****** Hebergements, Populaires ******/
     .hebergements-and-populaires {
+        background-color: brown;
         width: 100%;
         flex-direction: column-reverse;
         margin: 0;
+        gap: 0;
         /*padding-right: 5%;*/
     }
 
@@ -673,8 +676,13 @@ a {
         margin-right: 5%;*/
         /*padding: 10%;*/
     }
+
+    .hebergements>h4 {
+        margin-top: 16px;
+    }
     /****** Populaires ******/
     .populaires {
+        background-color: blueviolet;
         /*margin-top: 0;*/
     }
 
@@ -689,7 +697,8 @@ a {
 
     /****** Hebergements ******/
     .hebergements {
-        background-color: white;
+        background-color: aqua;
+        /*background-color: white;*/
         /*padding: 10%;*/
     }
 
@@ -704,13 +713,15 @@ a {
 
     .hebergements-cards .card {
         width: 100%;
+        margin-top: 20px;
     }
 
     /****** Activités ******/
     .activites {
+        background-color: blue;
         margin-top: 0;
         /*margin-top: 18%;*/
-        padding: 10px 0 0 10px;
+        padding: 41px 0 0 10px;
     }
     .activites-cards {
         flex-direction: column;
@@ -724,13 +735,10 @@ a {
 
     /****** Footer ******/
     .footer {
+        background-color: aquamarine;
         height: 120%;
         flex-direction: column;
     }
-
-    /*.footer-section {
-        width: 100%;
-    }*/
 
     .footer-section>p {
         font-size: 1rem;
