@@ -2,10 +2,13 @@
 CSS
 desktop, tablet, mobile
 spacing-right is larger than spacing-left
+
 mobile
 populaires, hebergements padding right
 activites padding left
-footer width short on the right vs. above sections
+footer 
+width short on the right vs. above sections
+height too large
 
 Companion 
 -0.02px media queries offset
@@ -739,8 +742,10 @@ a {
     /****** Footer ******/
     .footer {
         background-color: aquamarine;
-        height: 120%;
+        width: 100%;
+        height: 461px;
         flex-direction: column;
+        padding-left: 15px;
     }
 
     .footer-section>p {
