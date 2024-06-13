@@ -588,8 +588,8 @@ a {
         background-color: cadetblue;
         width: 100%;
         padding: 0;
-        /*box-sizing: border-box;*/
-        /*margin: 0;
+        /*box-sizing: border-box;
+        margin: 0;
         gap: 0;*/
     }
 
@@ -685,7 +685,7 @@ a {
     /****** Hebergements, Populaires ******/
     .hebergements-and-populaires {
         background-color: brown;
-        width: 100%;
+        width: 89%;
         flex-direction: column-reverse;
         margin: 0;
         gap: 0;
@@ -750,6 +750,7 @@ a {
     /****** Activités ******/
     .activites {
         background-color: blue;
+        width: 89%;
         margin-top: 0;
         padding: 41px 0 0 30px;
     }
