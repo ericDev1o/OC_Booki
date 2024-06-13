@@ -3,6 +3,10 @@ CSS
 desktop, tablet, mobile
 spacing-right is larger than spacing-left
 
+desktop
+activités height too large
+populaires not right justified
+
 mobile
 populaires, hebergements padding right
 activites padding left
@@ -99,6 +103,8 @@ a {
 }
 /****** Header ******/
 .header-top {
+    background-color: bisque;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
@@ -278,6 +284,7 @@ a {
 
 /****** Hebergements And Populaires ******/
 .hebergements-and-populaires {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 40px 50px 50px 0;
@@ -294,8 +301,9 @@ a {
 
 /****** Hebergements ***********/
 .hebergements {
-    width: 65%;
-    background-color: var(--main-bg-color);
+    width: 66%;
+    /*background-color: var(--main-bg-color);*/
+    background-color: chartreuse;
 }
 
 /*.hebergements-title {
@@ -353,8 +361,9 @@ a {
 }
 /****** Populaires ***********/
 .populaires {
-    width: 32%;
-    background-color: var(--main-bg-color);
+    width: 34%;
+    /*background-color: var(--main-bg-color);*/
+    background-color: blueviolet;
 }
 
 .populaires-title {
@@ -398,8 +407,9 @@ a {
 
 /****** Activités ******/
 .activites {
+    background-color: aquamarine;
     width: 100%;
-    margin: 20px 0 20px 0;
+    margin: 20px 30px 20px 30px;
 }
 
 .activites-title {
@@ -440,6 +450,7 @@ a {
 }
 /****** Footer ******/
 .footer {
+    width: 100%;
     height: 163px;
     display: flex;
     background-color: var(--main-bg-color);
@@ -468,6 +479,9 @@ a {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1023.98px) {
+    .header-top {
+        background-color: aqua;
+    }
     /****** Search ******/
     .search {
         width: 60%;
@@ -488,16 +502,19 @@ a {
 
     /****** Hebergements and Populaires ******/
     .hebergements-and-populaires {
+        background-color: aquamarine;
         flex-direction: column;
     }
 
     /****** Hebergements ******/
     .hebergements {
+        background-color: aqua;
         width: 100%;
     }
 
     /****** Populaires ***********/
     .populaires {
+        background-color: bisque;
         width: 100%;
         margin-top: 10px;
     }
@@ -531,6 +548,7 @@ a {
 
     /****** Activités ******/
     .activites {
+        background-color: brown;
         margin-top: 50px;
     }
 
