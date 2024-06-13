@@ -580,6 +580,7 @@ a {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     body{
+        width: 100%;
         margin: 0;
     }
 
@@ -595,6 +596,7 @@ a {
     /****** Header ******/
     .header-top {
         /*display: flex;*/
+        width: 100%;
         flex-direction: column;
         align-items: center;
     }
@@ -766,7 +768,7 @@ a {
         width: 100%;
         height: 461px;
         flex-direction: column;
-        padding-left: 15px;
+        padding-left: 45px;
     }
 
     .footer-section>p {
