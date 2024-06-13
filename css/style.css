@@ -749,12 +749,11 @@ a {
     .activites {
         background-color: blue;
         margin-top: 0;
-        padding: 41px 0 65px 30px;
+        padding: 41px 0 0 30px;
     }
     .activites-cards {
         flex-direction: column;
-        /*margin-left: 7.5%;
-        margin-right: 7.5%;*/
+        padding-right: 10px;
     }
 
     .activites-cards .card {
