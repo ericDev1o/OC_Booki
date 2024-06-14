@@ -4,8 +4,8 @@ desktop, tablet, mobile
 spacing-right is larger than spacing-left
 
 desktop
-activités height too large
-populaires not right justified
+activités 
+height too large
 
 mobile
 populaires, hebergements padding right
@@ -408,7 +408,7 @@ a {
 /****** Activités ******/
 .activites {
     background-color: aquamarine;
-    width: 100%;
+    width: 99%;
     margin: 20px 30px 20px 30px;
 }
 
