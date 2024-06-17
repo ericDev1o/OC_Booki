@@ -16,3 +16,6 @@ L'utilisation est réalisable pour la largeur
 ### balises sémantiques
 #### aside 
 La section populaires serait aside au contenu indépendant selon la documentation https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside, "The paragraph is only indirectly related to the main article content". Je pense que le lien entre Populaires et Hébergements est direct. Aside est seulement visuellement de côté sur grands écrans.
+### accessibilité
+#### role
+Les roles navigation et search ne passent pas au validateur HTML https://validator.w3.org/nu/#textarea
