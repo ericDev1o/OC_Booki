@@ -1,22 +1,4 @@
-/* To do
-CSS
-1)check heights
 
-desktop, tablet
-2)spacing-right is larger than spacing-left
-
-mobile
-3)Chrome inspector white strip on the right
-4)border under menu-items is not 50% of the viewport
-hebergements, activites
-5)spacing-right is smaller than spacing-left
-
-Companion 
--0.02px media queries offset
-when is it better to use grid versus flex?
-How to use the OC portfolio tool?
-How to deploy a website?
-*/
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
@@ -121,9 +103,7 @@ a {
 
 .menu-hug {
     display: flex;
-    justify-content: space-around;
     height: 35px;
-    padding: 0 0 0 50px;
 }
 
 .menu-item {
@@ -585,9 +565,12 @@ a {
 
     .menu-hug {
         width: 100%;
-        justify-content: space-around;
         height: 35px;
     }
+
+    .menu-hug>a:last-child {
+    margin-left: 0;
+}
 
     .menu-item {
         width: 50%;

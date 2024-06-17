@@ -1,11 +1,18 @@
-# booki-starter-pack
-## header
-### méthode et astuces
-#### colorer le fond pour identifier les conteneurs
-#### mettre des padding et margin top, left et right selon la maquette
+# Booki
+## contexte
+Booki est un site de comparaison d'hébergements et d'activités à Marseille.
 ## choix
-### min-width 320 inutile de forcer l'affichage en largeur
-### Flexbox: moins de modifications responsive à priori
+### responsive
+Le site est responsive conçu en desktop-first.
+#### min-width 320
+Je vois comme inutile de forcer l'affichage en largeur d'éléments en ligne sur un écran très étroit.
+#### Flexbox
+Flexbox est choisi en premier partout où c'est possible car il y aurait moins de modifications responsive pour passer en colonne.
+#### unités
+##### utilisation de pixels 
+Les pixels sont visuellement conformes pour les élements d'en-tête
+##### utilisation de %
+L'utilisation est réalisable pour la largeur 
 ### balises sémantiques
-#### aside populaires au contenu indépendant, aside visuellement oui de côté sur grands écrans, le contenu est lié donc section
-### utilisation de pixels pour les fonts visuellement OK
+#### aside 
+La section populaires serait aside au contenu indépendant selon la documentation https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside, "The paragraph is only indirectly related to the main article content". Je pense que le lien entre Populaires et Hébergements est direct. Aside est seulement visuellement de côté sur grands écrans.
