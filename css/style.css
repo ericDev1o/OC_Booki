@@ -682,7 +682,7 @@ a {
 
     .hebergements-cards {
         padding-left: 20px;
-        padding-right: 20px;
+        padding-right: 30px;
     }
 
     .hebergements-cards>a {
@@ -711,7 +711,7 @@ a {
 
     .activites-cards {
         flex-direction: column;
-        padding: 30px;
+        padding: 30px 40px 30px 30px;
     }
 
     .activites-cards .card {
