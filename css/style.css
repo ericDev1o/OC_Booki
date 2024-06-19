@@ -582,8 +582,7 @@ a {
 
     /****** Search ******/
     .search-and-filters {
-        background-color: brown;
-        /*padding: 0 20px;*/
+        padding: 0 20px;
     }
 
     .search-and-filters>h3 {
@@ -618,7 +617,6 @@ a {
         flex-direction: column;
         width: 100%;
         justify-content: stretch;
-        /*margin-right: 35px;*/
     }
 
     .filters .filter-buttons {
@@ -627,7 +625,8 @@ a {
     }
 
     .button-filter {
-        width: 46%;
+        width: 50%;
+        margin: 0;
     }
 
     .info-bar {
