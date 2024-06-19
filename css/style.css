@@ -42,7 +42,6 @@ body {
 }
 
 .main-container {
-    background-color: cadetblue;
     width: 100%;
     max-width: 1439.98px;
     padding: 0 50px;
@@ -83,7 +82,6 @@ a {
 }
 /****** Header ******/
 .header-top {
-    background-color: bisque;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -260,7 +258,6 @@ a {
 
 /****** Hebergements And Populaires ******/
 .hebergements-and-populaires {
-    background-color: brown;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -270,13 +267,13 @@ a {
 
 .hebergements, .populaires {
     border-radius: 10px;
+    padding: 30px;
 }
 
 /****** Hebergements ***********/
 .hebergements {
     width: 70%;
-    /*background-color: var(--main-bg-color);*/
-    background-color: chartreuse;
+    background-color: var(--main-bg-color);
 }
 
 .hebergements-cards {
@@ -328,8 +325,7 @@ a {
 /****** Populaires ***********/
 .populaires {
     width: 34%;
-    /*background-color: var(--main-bg-color);*/
-    background-color: blueviolet;
+    background-color: var(--main-bg-color);
 }
 
 .populaires-title {
@@ -373,7 +369,6 @@ a {
 
 /****** Activités ******/
 .activites {
-    background-color: aquamarine;
     width: 100%;
 }
 
@@ -381,11 +376,13 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 30px;
 }
 
 .activites-cards {
     display: flex;
     justify-content: space-between;
+    padding: 0 30px;
 }
 
 .activites-cards .card {
@@ -441,13 +438,6 @@ a {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1023.98px) {
-.main-container {
-    background-color: cadetblue;
-}
-
-    .header-top {
-        background-color: aqua;
-    }
     /****** Search ******/
     .search {
         width: 60%;
@@ -467,26 +457,44 @@ a {
 
     /****** Hebergements and Populaires ******/
     .hebergements-and-populaires {
-        background-color: brown;
         flex-direction: column;
+    }
+
+    .hebergements, .populaires {
+        padding: 0;
     }
 
     /****** Hebergements ******/
     .hebergements {
-        background-color: aqua;
         width: 100%;
+    }
+
+    .hebergements-title {
+        margin: 30px 0 0 30px;
+    }
+
+    .hebergements-cards {
+        margin: 0 30px;
+    }
+
+    .hebergements>h4 {
+        margin: 30px 0 30px 30px;
     }
 
     /****** Populaires ***********/
     .populaires {
-        background-color: bisque;
         width: 100%;
         margin-top: 10px;
+    }
+
+    .populaires-title {
+        margin: 30px 30px 0 30px;
     }
 
     .populaires-cards {
         flex-direction: row;
         justify-content: space-between;
+        margin: 0 30px 30px 30px;
     }
 
     .populaires-cards a {
@@ -497,18 +505,8 @@ a {
         margin-top: 20px;
     }
 
-    .populaires-cards .card-title {
-        font-size: 0.875rem;
-        line-height: 1rem;
-    }
-
-    .populaires-cards .card-subtitle {
-        font-size: 0.8125rem;
-    }
-
     /****** Activités ******/
     .activites {
-        background-color: brown;
         margin-top: 50px;
     }
 
@@ -540,7 +538,6 @@ a {
     }
 
     .main-container {
-        background-color: cadetblue;
         width: 100%;
         padding: 0;
     }
@@ -636,7 +633,6 @@ a {
     }
     /****** Hebergements, Populaires ******/
     .hebergements-and-populaires {
-        background-color: brown;
         width: 100%;
         flex-direction: column-reverse;
         margin: 0;
@@ -656,7 +652,6 @@ a {
     }
     /****** Populaires ******/
     .populaires {
-        background-color: blueviolet;
         padding-top: 30px;
     }
 
@@ -675,8 +670,7 @@ a {
 
     /****** Hebergements ******/
     .hebergements {
-        background-color: aqua;
-        /*background-color: white;*/
+        background-color: white;
         padding-top: 35px;
     }
 
@@ -700,13 +694,8 @@ a {
 
     /****** Activités ******/
     .activites {
-        background-color: blue;
         width: 100%;
         margin-top: 40px;
-    }
-
-    .section-title {
-        padding-left: 30px;
     }
 
     .activites-cards {
@@ -720,7 +709,6 @@ a {
 
     /****** Footer ******/
     .footer {
-        background-color: aquamarine;
         width: 100%;
         height: 420px;
         flex-direction: column;
