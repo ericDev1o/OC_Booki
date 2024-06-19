@@ -622,11 +622,17 @@ a {
     .filters .filter-buttons {
         justify-content: stretch;
         flex-flow: row wrap;
+        gap: 20px 10px;
+        margin-bottom: 25px;
     }
 
     .button-filter {
-        width: 50%;
+        width: 47%;
         margin: 0;
+    }
+
+    .button-filter>span {
+        font-size: 0.875rem;
     }
 
     .info-bar {
@@ -654,7 +660,7 @@ a {
     }
     /****** Populaires ******/
     .populaires {
-        padding-top: 30px;
+        margin-top: 30px;
     }
 
     .populaires-cards {
