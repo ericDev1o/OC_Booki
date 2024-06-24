@@ -385,11 +385,14 @@ a {
     padding: 0 30px;
 }
 
+.activites-cards>a {
+    width: 24%;
+}
+
 .activites-cards .card {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-    width: 22%;
     height: 440px;
 }
 
@@ -516,7 +519,6 @@ a {
     }
 
     .activites-cards .card {
-        width: 22%;
         height: 250px;
     }
 
@@ -696,6 +698,10 @@ a {
         flex-direction: column;
         margin: 0 10px;
         padding-right: 40px;
+    }
+
+    .activites-cards>a {
+        width: 100%;
     }
 
     .activites-cards .card {
