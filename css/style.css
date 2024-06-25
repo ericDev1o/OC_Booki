@@ -584,7 +584,7 @@ a {
         padding-bottom: 25px;
         padding-top: 0;
         border-top: 0;
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid var(--main-bg-color);
     }
 
     .menu-item:hover {
