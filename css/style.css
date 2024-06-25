@@ -40,6 +40,7 @@ p {
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .main-container {
@@ -736,6 +737,6 @@ a {
     }
 
     .footer-section:last-child {
-        padding-bottom: 40px;
+        padding-bottom: 20px;
     }
 }
