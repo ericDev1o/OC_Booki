@@ -15,6 +15,7 @@
     color: var(--main-color);
 }
 
+h1, 
 h2,
 h3 {
   font-weight: 700;
@@ -129,9 +130,11 @@ a {
     width: 50%;
 }
 
-.search-and-filters>h5 {
+.search-and-filters>p {
     font-weight: 400;
-    margin-top: 8px;
+    font-size: 1rem;
+    line-height: 1.174rem;
+    margin: 8px 0 20px 0;
 }
 
 .search>form {
@@ -227,9 +230,11 @@ a {
     margin-top: 30px;
 }
 
-.filters>h4 {
+.filters>h2 {
     font-size: 1.125rem;
     padding: 30px 10px 30px 0;
+    line-height: 1.174rem;
+    margin: 0 0 20px 0;
 }
 
 .filter-buttons {
@@ -412,6 +417,8 @@ a {
 
 .activites-cards .card-title {
     margin: 10px 0 4px 0;
+    font-size: 1rem;
+    line-height: 1.174rem;
 }
 /****** Footer ******/
 .footer {
